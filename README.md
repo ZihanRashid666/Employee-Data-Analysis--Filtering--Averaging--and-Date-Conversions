@@ -1,4 +1,3 @@
-Employee Data Analysis: Filtering, Averaging, and Date Conversions steps
 • Go to the online repository that you want to clone
 • Copy the repository URL from code button's HTTP
 • Open command prompt or powershell
