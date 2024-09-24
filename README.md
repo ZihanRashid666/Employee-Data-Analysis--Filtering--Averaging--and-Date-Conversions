@@ -1,3 +1,15 @@
+• Dependencies
+  pythin 3.8 or above
+
+• pip install virtualenv
+
+• To run the script
+  virtualenv .venv
+
+• .venv\Scripts\activate.bat
+
+
+
 The following steps on CMD or Powershell
 
 • Navigate to the desired directory:
