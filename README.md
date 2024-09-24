@@ -1,8 +1,15 @@
-• Go to the online repository that you want to clone
-• Copy the repository URL from code button's HTTP
-• Open command prompt or powershell
-• Go to the folder that you want to clone the repository into
-• Type, git clone "paste copied URL"
-• Type "TASK.PY"
-• Press enter
- 
+The following steps
+
+• Navigate to the desired directory:
+  Write cd dir
+
+• Clone the GitHub repository:
+  Write git clone https://github.com/ZihanRashid666/Employee-Data-Analysis--Filtering--Averaging--and-Date-Conversions.git
+
+The repository is successfully cloned, as indicated by the progress messages.
+
+• Change directory into the cloned project folder:
+  Write cd Employee-Data-Analysis--Filtering--Averaging--and-Date-Conversions
+
+• Run the Python script again after changing the directory:
+  Write python task.py
