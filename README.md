@@ -1,4 +1,4 @@
-The following steps
+The following steps on CMD or Powershell
 
 • Navigate to the desired directory:
   Type cd desired directory path
