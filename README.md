@@ -23,5 +23,21 @@ The repository is successfully cloned, as indicated by the progress messages.
 • Change directory into the cloned project folder:
   Type cd Employee-Data-Analysis--Filtering--Averaging--and-Date-Conversions
 
-• Run the Python script again after changing the directory:
-  Type python task.py
+• Git Config for username : git config --global user.name "ZihanRashid666"
+• Git Config for email : git config --global user.email "zihanrob@gmail.com"
+• To create new branch : git checkout -b fix-csv-manipulation
+• To check all branch : git branch
+• To edit code : code .
+• Display state of project : git status
+• Update the edited code to local project : git add 
+• Display state of project after Update : git status
+• Add Message of Update : git commit -m "New Name CSV Added"
+• Updatting from local to Remote Repository  : git commit -m "New Name CSV Added"
+
+Pull Requests from Github
+
+
+
+
+
+
