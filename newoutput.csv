@@ -1,4 +1,11 @@
-,Column1,Column2,Output
-0,1,A,10.5
-1,2,B,12.3
-2,3,C,14.1
+EmployeeID,Name,Department,Salary,JoiningDate
+101,John Doe,Engineering,50000,10/1/2022
+102,Stuart Broad,Sales,60000,9/2/2023
+103,Jane Smith,Marketing,70000,10/1/2022
+104,Michale,Engineering,50000,9/2/2023
+105,Zihan,Sales,55000,9/3/2023
+106,Sara,Sales,45000,9/4/2023
+107,Imran,Marketing,30000,9/5/2023
+108,Shakib,Engineering,75000,9/6/2023
+109,Labib,Sales,60000,9/7/2023
+110,Farhan,Engineering,29000,9/8/2023
