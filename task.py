@@ -1,28 +1,13 @@
+# Sample data: replace this with your actual data processing logic
 import pandas as pd
-from datetime import datetime
 
-#Answer to Question No.1
+data = {
+    'Column1': [1, 2, 3],
+    'Column2': ['A', 'B', 'C'],
+    'Output': [10.5, 12.3, 14.1]
+}
+df = pd.DataFrame(data)
 
-df = pd.read_csv("C:/2/Employee-Data-Analysis--Filtering--Averaging--and-Date-Conversions-main/employeesSheet1.csv", index_col=0)
-filtered_df = df[(df['Department'] == 'Engineering') | (df['Salary'] > 60000)]
-
-print(filtered_df)
-
-#Answer to Question No.2
-
-average_salary_all=df['Salary'].mean()
-average_salary_byDepartment=df.groupby('Department')['Salary'].mean()
-
-
-print(f'Average Salary of all employess:{average_salary_all}')
-print(f'Average Salary for specific Department:{average_salary_byDepartment}')
-
-#Answer to Question No.3
-
-df['JoiningDate'] = pd.to_datetime(df['JoiningDate'], format='%m/%d/%Y')
-df['FormattedJoiningDate'] = df['JoiningDate'].dt.strftime('%d-%m-%Y')
-current_date = pd.to_datetime(datetime.now())
-df['YearsWithCompany'] = (current_date - df['JoiningDate']).dt.days / 365.25  
-
-print(df[['JoiningDate', 'FormattedJoiningDate', 'YearsWithCompany']])
-
+# Saving to a new CSV file
+output_filename = 'newoutput.csv'  # Specify the new CSV file name
+df.to_csv("C:/Users/PSL/task2\Employee-Data-Analysis--Filtering--Averaging--and-Date-Conversions/newoutput.csv")  # Save DataFrame to CSV
